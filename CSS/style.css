@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Comforter&family=Cutive+Mono&family=Dancing+Script:wght@700&display=swap');
+
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    margin: 20px auto 20px auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    color: #046582;
+}
+h2{
+    margin-block-start: 0;
+    margin-block-end: 0.5em;
+    font-family: 'Comforter', cursive;
+    font-size: 3.3rem;
+    color: #046582;
+    font-weight: normal;
+}
+h3{
+    margin-block-start: 0;
+    margin-block-end: 0.5em;
+    font-family: 'Cinzel', serif;
+    font-size: 1.6rem;
+    color: #22577E;
+    font-weight: normal;
+}
+.top_container{
+    background-color: #D7E9F7;
+    padding: 5px;
+    position: relative;
+    line-height: 7em;
+}
+.mid_container{
+    background-color: #B5EAEA;
+    padding: 5px;
+    position: relative;
+}
+.bottom_container{
+    background-color: #D7E9F7;
+    padding: 5px;
+    position: relative;
+}
+.footer_container{
+    background-color: #B5EAEA;
+    padding: 5px;
+    position: relative;
+    margin: 0;
+}
+.top_cloud{
+    position: relative;
+    left: 250px;
+}
+.bottom_cloud{
+    position: absolute;
+}
+.myimg{
+    width: 250px;
+    opacity: 0.9;
+}
+.myimg:hover{
+    width: 260px;
+    opacity: 1;
+}
+.emoji{
+    color: red;
+}
+p{
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.linkedin, .mysite{
+    color: #39A2DB;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.linkedin:hover, .mysite:hover{
+    color: #22577E;
+}
+.skills_divs{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;    
+}
+.C, .Cpp, .html, .css, .python, .django{
+    width: 15rem;
+    height: 9rem;
+}
+.C:hover, .Cpp:hover, .html:hover, .css:hover, .python:hover, .django:hover{
+    width: 15.5rem;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.C, .html, .python{
+    float: left;
+    margin-right: 20px;  
+}
+.Cpp, .css, .django{
+    float: right;
+    margin-left: 50px;
+}
+/* .done{
+    clear: right;
+} */
+.copyright{
+    color:#161E54;
+}
+.contact{
+    text-decoration: none;
+    background-color: #132C33;
+    color: #E4FBFF;
+    padding: 1rem;
+    font-size: 1.3em;
+    border-radius: 10%;
+}
+.contact:hover{
+    background-color: #126E82;
+    color: #C0FEFC;
+}
+/* hr{
+    border-width: 20px;
+    width: 30%;
+    border-style: dotted;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: cyan;
+} */
